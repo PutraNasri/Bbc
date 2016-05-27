@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="120dp"
+            android:id="@+id/ipa"
+            android:layout_gravity="left|top"
+            android:background="@drawable/ipa"
+            android:nestedScrollingEnabled="false"
+            android:onClick="onClick" />
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="120dp"
+            android:id="@+id/ips"
+            android:layout_gravity="right|top"
+            android:background="@drawable/ips"
+            android:onClick="onClick" />
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="120dp"
+            android:id="@+id/mtk"
+            android:layout_gravity="left|center_vertical"
+            android:background="@drawable/mtk"
+            android:onClick="onClick" />
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="120dp"
+            android:id="@+id/bing"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/bing" />
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="120dp"
+            android:id="@+id/kimia"
+            android:layout_gravity="right|bottom"
+            android:background="@drawable/kimia" />
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="120dp"
+            android:id="@+id/fisika"
+            android:layout_gravity="left|bottom"
+            android:background="@drawable/fsika" />
+    </FrameLayout>
+
+</RelativeLayout>

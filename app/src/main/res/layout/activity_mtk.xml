@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#666464">
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:onClick="fadhli">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+           >
+            <TextView
+                android:id="@+id/jam1"
+                android:textSize="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="Jam mengajar : "
+                android:textColor="#000000"
+                android:layout_below="@+id/name1"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="Fadhli"
+                android:textColor="#212121"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:textSize="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hari mengajar"
+                android:textColor="#000000"
+                android:layout_below="@+id/jam1"
+                android:layout_alignLeft="@+id/jam1"
+                android:layout_alignStart="@+id/jam1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textSize="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tingkat Mengajar SD"
+                android:textColor="#000000"
+                android:layout_below="@+id/textView1"
+                android:layout_alignLeft="@+id/textView1"
+                android:layout_alignStart="@+id/textView1" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/uns"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+            <TextView
+                android:id="@+id/jam"
+                android:textSize="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="Jam mengajar : "
+                android:textColor="#000000"
+                android:layout_below="@+id/name"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="Usop"
+                android:textColor="#212121"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:textSize="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hari mengajar"
+                android:textColor="#000000"
+                android:layout_below="@+id/jam"
+                android:layout_alignLeft="@+id/jam"
+                android:layout_alignStart="@+id/jam" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textSize="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tingkat Mengajar SD"
+                android:textColor="#000000"
+                android:layout_below="@+id/textView"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView" />
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:id="@+id/imageView1"
+                android:src="@drawable/uns"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
